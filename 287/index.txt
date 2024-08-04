@@ -1,0 +1,6 @@
+Floyd's Tortoise and Hare algorithm
+
+
+The cycle detection phase ensures that the presence of a cycle indicates a duplicate.
+The meeting point in phase 2 provides the exact duplicate number.
+This method works under the assumption that only one duplicate number exists, and the numbers are in the range 1 to n. It does not use any extra space, making it an efficient O(1) space solution. The time complexity is O(n) due to the two pointer traversals.
